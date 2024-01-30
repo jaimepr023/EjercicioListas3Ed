@@ -3,6 +3,7 @@ package Ejercicio3Listas.Dtos;
 public class CamposDtos {
 	
 	
+	
 	int numeroMes = 0;
 	String mes ="aaaaa"; 
 	
@@ -34,7 +35,7 @@ public class CamposDtos {
 	
 	@Override
 	public String toString() {
-		return "CamposDtos [numeroMes=" + numeroMes + ", mes=" + mes + "]";
+		return "CamposDtos [mes=" + mes + "]";
 	}
-
+	
 }
